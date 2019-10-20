@@ -1,4 +1,5 @@
 <pre>
+In the context of the AAGB course (Algorithms on trees and graphs in bioinformatic)
 Implementation of :
 - UPGMA (unweighted pair group method with arithmetic mean) an agglomerative (bottom-up) hierarchical 
 clustering method.
