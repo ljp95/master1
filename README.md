@@ -12,4 +12,5 @@ In python :
    
 In matlab :
   - Denoising images with Non local means
+  You can still check this code but it's quite confusing !
 </pre>
