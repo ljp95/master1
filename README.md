@@ -11,6 +11,5 @@ In python :
   - UPGMA and Neighbor joining
    
 In matlab :
-  - Denoising images with Non local means
-  You can still check this code but it's quite confusing !
+  - Denoising images with Non local means (comments in french)
 </pre>
