@@ -1,4 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%% Tests des hyper paramètres %%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%% Tests des hyper paramÃ¨tres %%%%%%%%%%%%%%%%%%%%%
 %%%%% initialisation des variables
 % I = imread('house2.png');
 % I = imread('lena.gif');
