@@ -150,12 +150,12 @@ patches = im2col(fenetre,[2*f+1,2*f+1],'sliding')';
 M = exp(-sum(((patch2-patches).^2).*filtre,2)/(h*h));
 
 %%%%% affichage
-% poids central à 1
+% poids central Ã  1
 J = reshape(M,2*t+1,2*t+1);
 figure();colormap gray;
 subplot(1,3,1);imagesc(uint8(fenetre));
 subplot(1,3,2);imagesc(J);title({'poids central a 1'});
-% poids central à max des autres poids
+% poids central Ã  max des autres poids
 M(floor(size(M,1)/2)+1) = 0;
 M(floor(size(M,1)/2)+1) = max(M);
 J = reshape(M,2*t+1,2*t+1);
