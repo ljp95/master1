@@ -55,7 +55,7 @@ end
 % PSNR_T(:,i) = psnr_t;
 % SSIM_T(:,i) = ssim_t;
 %     
-% % ACP à régler manuellement
+% % ACP Ã  rÃ©gler manuellement
 % bar(liste_h,PSNR_H-28);xlabel('h');ylabel('psnr');title('psnr selon h / bruit = 10');legend({'lena','acp5','acp3'})
 % set(gca, 'YTick', [0:1:6], 'YTickLabel',[0:1:6]+28)
 % 
