@@ -68,7 +68,7 @@ subplot(2,3,6);scatter(1:n,Imedian(x,1:n),3);title('median');
 % figure();plot(Imedian(1:n,y),'r');title('median');
 
 
-%%%%% Comparaisons non bruitée, bruitéé et filtrage sur un même graphique
+%%%%% Comparaisons non bruitÃ©e, bruitÃ©Ã© et filtrage sur un mÃªme graphique
 figure();plot(I(1:n,y),'b');
 hold on;
 plot(Ibruitee(1:n,y),'--g');plot(Imean(1:n,y),'r');
