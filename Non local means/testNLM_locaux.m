@@ -68,7 +68,7 @@ end
 
 %%%%%%%%%%%%%%%% Filtre median %%%%%%%%%%%%%%%%
 liste_median = [3,5,7,9]';
-figure();colormap gray;title('Filtre médian');
+figure();colormap gray;title('Filtre mÃ©dian');
 for i=1:size(liste_median,1)
     Imedian = medfilt2(Ibruitee,[liste_median(i),liste_median(i)]); 
     Imedian2 = uint8(Imedian);
