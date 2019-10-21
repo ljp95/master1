@@ -23,7 +23,7 @@ M = zeros(n*m,(2*t+1)^2);
 patches = im2col(Inoisy3,[2*f+1,2*f+1],'sliding')'; 
 % filtre gaussien en vecteur (1,(2*f+1)^2)
 filter = reshape(fspecial('gaussian',2*f+1,1),1,(2*f+1)^2);
-% Application filtre gaussien sur tous les patchs, prise en compte du carré
+% Application filtre gaussien sur tous les patchs, prise en compte du carrÃ©
 patches = patches.*(filter.^(1/2));                 
 % indices des patchs voisins pour chaque patch(n*m,(2*t+1)^2)
 indices = im2col(padarray(reshape(1:n*m,n,m),[t,t],'symmetric'),[2*t+1,2*t+1]); 
